@@ -1,0 +1,33 @@
+<!--pages/sport/sport.wxml-->
+
+<view class='example'>
+
+    <image
+        class='image'
+        src='{{url}}' 
+        mode="widthFix" 
+        data-url='{{url}}' 
+        catchtap='preview'></image>
+</view>
+
+<view class='article'>
+    <view class='title'>环拱正立势</view>
+    <view class='summary'>
+    腰酸背痛，包括脖子疼，后背疼，腰疼都是典型的办公室职业病，有一个动作，在办公室练习恢复效果明显。
+    </view>
+    <view class='content'>
+    要点：
+    <view>1、双脚后跟紧挨着，双脚成90度角，这样站立，能让脊柱充分正直；</view>
+    <view>2、身体正直站立，头顶向上顶，让脖子伸直，下巴与地面保持垂直，不要向前噘，这样让颈椎正直；</view>
+    <view>3、双手握拳放在身体两侧，自然下垂双臂；</view>
+    <view>4、闭口，轻咬牙关（很重要），舌尖抵上牙堂门牙位置，这叫“舌抵上腭”；</view>
+    <view>5、眼睛可以微闭，或者目视斜下方地面，总之，不要东瞧西望；</view>
+
+
+
+
+
+
+
+    </view>
+</view>

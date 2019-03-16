@@ -1,0 +1,32 @@
+/* pages/sport/sport.wxss */
+.example {
+    display: flex;
+    justify-content: center;
+    margin-top:15px; 
+}
+.example .image{
+    width:60%;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+
+}
+.article{
+    padding: 15px;
+}
+.article .title{
+    text-align: center;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+.article .summary{
+    margin: 5px 0;
+    font-size: 11pt;
+}
+.article .content{
+    font-size: 9pt;
+    color: #888;
+    line-height: 15pt;
+}
