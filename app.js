@@ -3,12 +3,21 @@
 const utils = require('./utils/util.js')
 var API = require('./utils/api.js')
 
+
 App({
     onLaunch: function () {
         wx.cloud.init({
-            env: 'sjtest-a25a0c',
+            // env: 'sjtest-a25a0c',
+            env:'sjdraw1-a25a0c',
             traceUser: true
         })
+
+
+        // var News = require('db/news.js')
+        // var db_news = new News()
+        // this.globalData.dbNews = db_news
+        // db_news.getSelf()
+
 
     },
     // 权限询问

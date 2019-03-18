@@ -1,8 +1,8 @@
 {
     "pages":[
-        "pages/test/test",
-        "pages/painter/painter",
         "pages/sport/sport",
+        "pages/painter/painter",
+        "pages/test/test",
         "pages/my/my"
 
 
@@ -18,12 +18,12 @@
         "position":"top",
         "list": [
             {
-                "pagePath": "pages/painter/painter",
-                "text": "人体检测"
+                "pagePath": "pages/sport/sport",
+                "text": "标准姿势"
             },
             {
-                "pagePath": "pages/sport/sport",
-                "text": "今日姿势"
+                "pagePath": "pages/painter/painter",
+                "text": "姿势检测"
             }
         ]
     },

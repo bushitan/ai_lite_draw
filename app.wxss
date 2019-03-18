@@ -24,3 +24,31 @@ page {
 input {
   font-family: "PingFang-SC-Regular","SimSun","Microsoft Yahei";
 }
+.head{
+    text-align: center;
+    font-size: 11pt;
+    margin:5px 0;
+    font-weight: bolder;
+}
+
+
+.ad_fix{
+    position: fixed;
+    width: 750rpx;
+    bottom: 0;
+}
+.ad{
+    /* position: fixed; */
+    width: 750rpx;
+    bottom: 0;
+}
+.ad_fix .ndoe ,.ad .ndoe{
+    width: calc(750rpx - 30px);
+    height: 48px;
+}
+
+.ada{
+    position: fixed;
+    width: 750rpx;
+
+}

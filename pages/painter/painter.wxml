@@ -17,6 +17,7 @@ module.exports.deleteHex = deleteHex;
        <label>#</label> <input value="{{color.deleteHex(lineColor)}}" placeholder="线的颜色" bindconfirm="inputLineColor" />
     </view>
 </view> -->
+<view class='head'>检测您的姿势是否标准</view>
 <ai-show
     bg="{{tempImage}}"
     bodyRectangle="{{bodyRectangle}}"
@@ -94,11 +95,6 @@ module.exports.deleteHex = deleteHex;
     catch:clickChoice="clickChoice"
     catch:clickDown="clickDown"
 ></ai-btn>
-
-
-
-
-
 
 
 

@@ -1,6 +1,12 @@
 // pages/test/test.js
-var Article = require('../../query/article.js')
-var article = new Article()
+var Article = require('../../db/article.js')
+var db_art = new Article()
+
+var News = require('../../db/news.js')
+var db_news = new News()
+
+var APP = getApp()
+// var db_art = new require('../../db/article.js')
 var GP
 Page({
 
@@ -17,12 +23,19 @@ Page({
      */
     onLoad: function (options) {
         GP = this
-        article.getList().then(function (data){
-            console.log(data)
-            GP.setData({
-                list:data
+
+        console.log(
+            db_news.getSelf().then(res => {
+                console.log(res)
             })
-        })
+        )
+ 
+        // db_art.getList().then(function (data){
+        //     console.log(data)
+        //     GP.setData({
+        //         list:data
+        //     })
+        // })
 
         console.log(
             // article.downloadCover("cloud://sjtest-a25a0c.736a-sjtest-a25a0c/cover/example.png")
